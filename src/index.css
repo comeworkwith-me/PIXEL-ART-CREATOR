@@ -1,0 +1,809 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #e6d0dc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*VARIABLES*/
+:root {
+  --dark-pink: #fa6386;
+  --pink: #ffa3c0;
+  --black: #000000;
+  --cloud-white: #e6e6e6;
+  --white: #ffffff;
+  --dark-orange: #ff6600;
+  --orange: #ff9900;
+  --yellow: #ffff00;
+  --red: #ff3300;
+  --brown: #8B4513;
+  --dark-blue: #250352;
+  --blue: #cecadb;
+  --purple: #9933ff;
+}
+
+
+/*PIXEL ART*/
+
+/*KIRBY*/
+.kirby {
+  margin-left: 100px;
+  margin-top: -590px;
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  box-shadow: 
+              /*ROW 1*/
+              -40px 0 0 var(--black),
+              -30px 0 0 var(--black),
+              -20px 0 0 var(--black),
+              0 0 0 var(--black),
+              10px 0 0 var(--black),
+              20px 0 0 var(--black),
+              30px 0 0 var(--black),
+              40px 0 0 var(--black),
+              50px 0 0 var(--black),
+              70px 0 0 var(--black),
+              80px 0 0 var(--black),
+              /*ROW 2*/
+              -50px 10px 0 var(--black),
+              -40px 10px 0 var(--dark-pink),
+              -30px 10px 0 var(--pink),
+              -20px 10px 0 var(--dark-pink),
+              -10px 10px 0 var(--black),
+              0 10px 0 var(--dark-pink),
+              10px 10px 0 var(--pink),
+              20px 10px 0 var(--pink),
+              30px 10px 0 var(--pink),
+              40px 10px 0 var(--pink),
+              50px 10px 0 var(--dark-pink),
+              60px 10px 0 var(--black),
+              70px 10px 0 var(--dark-pink),
+              80px 10px 0 var(--dark-pink),
+              90px 10px 0 var(--black),
+              /* Row 3 */
+              -60px 20px 0 var(--black),
+              -50px 20px 0 var(--dark-pink),
+              -40px 20px 0 var(--pink),
+              -30px 20px 0 var(--pink),
+              -20px 20px 0 var(--pink),
+              -10px 20px 0 var(--dark-pink),
+              0 20px 0 var(--pink),
+              10px 20px 0 var(--pink),
+              20px 20px 0 var(--pink),
+              30px 20px 0 var(--pink),
+              40px 20px 0 var(--pink),
+              50px 20px 0 var(--pink),
+              60px 20px 0 var(--dark-pink),
+              70px 20px 0 var(--black),
+              80px 20px 0 var(--pink),
+              90px 20px 0 var(--black),
+              /* Row 4 */
+              -60px 30px 0 var(--black),
+              -50px 30px 0 var(--pink),
+              -40px 30px 0 var(--pink),
+              -30px 30px 0 var(--pink),
+              -20px 30px 0 var(--pink),
+              -10px 30px 0 var(--pink),
+              0 30px 0 var(--pink),
+              10px 30px 0 var(--pink),
+              20px 30px 0 var(--pink),
+              30px 30px 0 var(--pink),
+              40px 30px 0 var(--pink),
+              50px 30px 0 var(--pink),
+              60px 30px 0 var(--pink),
+              70px 30px 0 var(--dark-pink),
+              80px 30px 0 var(--pink),
+              90px 30px 0 var(--black),
+              /* Row 5 */
+              -60px 40px 0 var(--black),
+              -50px 40px 0 var(--dark-pink),
+              -40px 40px 0 var(--pink),
+              -30px 40px 0 var(--pink),
+              -20px 40px 0 var(--pink),
+              -10px 40px 0 var(--pink),
+              0 40px 0 var(--pink),
+              10px 40px 0 var(--pink),
+              20px 40px 0 var(--pink),
+              30px 40px 0 var(--black),
+              40px 40px 0 var(--pink),
+              50px 40px 0 var(--black),
+              60px 40px 0 var(--pink),
+              70px 40px 0 var(--pink),
+              80px 40px 0 var(--pink),
+              90px 40px 0 var(--black),
+              /* Row 6 */
+              -50px 50px 0 var(--black),
+              -40px 50px 0 var(--dark-pink),
+              -30px 50px 0 var(--pink),
+              -20px 50px 0 var(--pink),
+              -10px 50px 0 var(--pink),
+              0 50px 0 var(--pink),
+              10px 50px 0 var(--pink),
+              20px 50px 0 var(--pink),
+              30px 50px 0 var(--black),
+              40px 50px 0 var(--pink),
+              50px 50px 0 var(--black),
+              60px 50px 0 var(--pink),
+              70px 50px 0 var(--pink),
+              80px 50px 0 var(--dark-pink),
+              90px 50px 0 var(--black),
+              /* Row 7 */
+              -50px 60px 0 var(--black),
+              -40px 60px 0 var(--black),
+              -30px 60px 0 var(--dark-pink),
+              -20px 60px 0 var(--pink),
+              -10px 60px 0 var(--pink),
+              0 60px 0 var(--pink),
+              10px 60px 0 var(--pink),
+              20px 60px 0 var(--pink),
+              30px 60px 0 var(--black),
+              40px 60px 0 var(--pink),
+              50px 60px 0 var(--black),
+              60px 60px 0 var(--pink),
+              70px 60px 0 var(--pink),
+              80px 60px 0 var(--black),
+              /* Row 8 */
+              -50px 70px 0 var(--black),
+              -40px 70px 0 var(--dark-pink),
+              -30px 70px 0 var(--pink),
+              -20px 70px 0 var(--pink),
+              -10px 70px 0 var(--pink),
+              0 70px 0 var(--dark-pink),
+              10px 70px 0 var(--dark-pink),
+              20px 70px 0 var(--pink),
+              30px 70px 0 var(--pink),
+              40px 70px 0 var(--pink),
+              50px 70px 0 var(--pink),
+              60px 70px 0 var(--pink),
+              70px 70px 0 var(--dark-pink),
+              80px 70px 0 var(--black),
+              /* Row 9 */
+              -50px 80px 0 var(--black),
+              -40px 80px 0 var(--dark-pink),
+              -30px 80px 0 var(--pink),
+              -20px 80px 0 var(--pink),
+              -10px 80px 0 var(--pink),
+              0 80px 0 var(--pink),
+              10px 80px 0 var(--pink),
+              20px 80px 0 var(--pink),
+              30px 80px 0 var(--pink),
+              40px 80px 0 var(--pink),
+              50px 80px 0 var(--pink),
+              60px 80px 0 var(--pink),
+              70px 80px 0 var(--pink),
+              80px 80px 0 var(--black),
+              /* Row 10 */
+              -40px 90px 0 var(--black),
+              -30px 90px 0 var(--pink),
+              -20px 90px 0 var(--pink),
+              -10px 90px 0 var(--pink),
+              0 90px 0 var(--pink),
+              10px 90px 0 var(--pink),
+              20px 90px 0 var(--pink),
+              30px 90px 0 var(--pink),
+              40px 90px 0 var(--black),
+              50px 90px 0 var(--pink),
+              60px 90px 0 var(--pink),
+              70px 90px 0 var(--dark-pink),
+              80px 90px 0 var(--black),
+              /* Row 11 */
+              -40px 100px 0 var(--black),
+              -30px 100px 0 var(--dark-pink),
+              -20px 100px 0 var(--pink),
+              -10px 100px 0 var(--pink),
+              0 100px 0 var(--pink),
+              10px 100px 0 var(--pink),
+              20px 100px 0 var(--pink),
+              30px 100px 0 var(--pink),
+              40px 100px 0 var(--pink),
+              50px 100px 0 var(--pink),
+              60px 100px 0 var(--pink),
+              70px 100px 0 var(--black),
+              /* Row 12 */
+              -50px 110px 0 var(--black),
+              -40px 110px 0 var(--dark-pink),
+              -30px 110px 0 var(--black),
+              -20px 110px 0 var(--dark-pink),
+              -10px 110px 0 var(--pink),
+              0 110px 0 var(--pink),
+              10px 110px 0 var(--pink),
+              20px 110px 0 var(--pink),
+              30px 110px 0 var(--pink),
+              40px 110px 0 var(--pink),
+              50px 110px 0 var(--pink),
+              60px 110px 0 var(--dark-pink),
+              70px 110px 0 var(--black),
+              /* Row 13 */
+              -50px 120px 0 var(--black),
+              -40px 120px 0 var(--dark-pink),
+              -30px 120px 0 var(--dark-pink),
+              -20px 120px 0 var(--black),
+              -10px 120px 0 var(--black),
+              0 120px 0 var(--dark-pink),
+              10px 120px 0 var(--pink),
+              20px 120px 0 var(--pink),
+              30px 120px 0 var(--pink),
+              40px 120px 0 var(--dark-pink),
+              50px 120px 0 var(--dark-pink),
+              60px 120px 0 var(--black),
+              /* Row 14 */
+              -50px 130px 0 var(--black),
+              -40px 130px 0 var(--dark-pink),
+              -30px 130px 0 var(--dark-pink),
+              -20px 130px 0 var(--dark-pink),
+              -10px 130px 0 var(--black),
+              0 130px 0 var(--black),
+              10px 130px 0 var(--black),
+              20px 130px 0 var(--black),
+              30px 130px 0 var(--black),
+              40px 130px 0 var(--black),
+              50px 130px 0 var(--black),
+              /* Row 15 */
+              -50px 140px 0 var(--black),
+              -40px 140px 0 var(--dark-pink),
+              -30px 140px 0 var(--dark-pink),
+              -20px 140px 0 var(--black),
+              0 140px 0 var(--black),
+              10px 140px 0 var(--dark-pink),
+              20px 140px 0 var(--dark-pink),
+              30px 140px 0 var(--black),
+              /* Row 16 */
+              -40px 150px 0 var(--black),
+              -30px 150px 0 var(--black),
+              10px 150px 0 var(--black),
+              20px 150px 0 var(--black);
+
+}
+
+/*CLOUDS -------*/
+
+.cloud {
+  display: block;
+  height: 15px;
+  width: 20px;
+
+  box-shadow: 
+      32px 0 var(--cloud-white),
+      40px 0 var(--cloud-white),
+      48px 0 var(--cloud-white),
+      56px 0 var(--cloud-white),
+    
+      24px 8px var(--cloud-white),
+      32px 8px var(--white),
+      40px 8px var(--white),
+      48px 8px var(--white),
+      56px 8px var(--white),
+      64px 8px var(--cloud-white),
+      
+      16px 16px var(--cloud-white),
+      24px 16px var(--white),
+      32px 16px var(--white),
+      40px 16px var(--white),
+      48px 16px var(--white),
+      56px 16px var(--white),
+      64px 16px var(--white),
+      72px 16px var(--cloud-white),
+      
+      8px 24px var(--cloud-white),
+      16px 24px var(--white),
+      24px 24px var(--white),
+      32px 24px var(--white),
+      40px 24px var(--white),
+      48px 24px var(--white),
+      56px 24px var(--white),
+      64px 24px var(--white),
+      72px 24px var(--white),
+      80px 24px var(--cloud-white),
+      
+      0px 32px var(--cloud-white),
+      8px 32px var(--white),
+      16px 32px var(--white),
+      24px 32px var(--white),
+      32px 32px var(--white),
+      40px 32px var(--white),
+      48px 32px var(--white),
+      56px 32px var(--white),
+      64px 32px var(--white),
+      72px 32px var(--white),
+      80px 32px var(--white),
+      88px 32px var(--cloud-white),
+      
+      8px 40px var(--cloud-white),
+      16px 40px var(--cloud-white),
+      24px 40px var(--cloud-white),
+      32px 40px var(--cloud-white),
+      40px 40px var(--cloud-white),
+      48px 40px var(--cloud-white),
+      56px 40px var(--cloud-white),
+      64px 40px var(--cloud-white),
+      72px 40px var(--cloud-white),
+      80px 40px var(--cloud-white);
+}
+
+.cloud-1 {
+  position: absolute;
+  top: 30%;
+  left: 14%;
+}
+
+.cloud-2 {
+  position: absolute;
+  top: 15%;
+  left: 90%;
+}
+
+
+.cloud-3 {
+  position: absolute;
+  height: 25px;
+  width: 20px;
+  top: 60%;
+  left: 76%;
+}
+
+
+.cloud-4 {
+  position: absolute;
+  top: 70%;
+  left: 2%;
+}
+
+/*CHARIZARD ---------------------*/
+
+.charizard {
+  position: absolute;
+  top: 43%;
+  left: 77%;
+}
+
+.charizard {
+  display: block;
+  height: 8px;
+  width: 8px;
+  box-shadow: 
+              32px 0 var(--black),
+              40px 0 var(--black),
+              48px 0 var(--black),
+              56px 0 var(--black),
+              136px 0 var(--black),
+
+              24px 8px var(--black),
+              32px 8px var(--orange),
+              40px 8px var(--orange),
+              48px 8px var(--orange),
+              56px 8px var(--dark-orange),
+              64px 8px var(--black),
+              128px 8px var(--black),
+              136px 8px var(--red),
+              144px 8px var(--black),
+
+              16px 16px var(--black),
+              24px 16px var(--orange),
+              32px 16px var(--orange),
+              40px 16px var(--orange),
+              48px 16px var(--orange),
+              56px 16px var(--orange),
+              64px 16px var(--dark-orange),
+              72px 16px var(--black),
+              128px 16px var(--black),
+              136px 16px var(--red),
+              144px 16px var(--red),
+              152px 16px var(--black),
+
+              16px 24px var(--black),
+              24px 24px var(--orange),
+              32px 24px var(--orange),
+              40px 24px var(--orange),
+              48px 24px var(--orange),
+              56px 24px var(--orange),
+              64px 24px var(--orange),
+              72px 24px var(--black),
+              128px 24px var(--black),
+              136px 24px var(--red),
+              144px 24px var(--red),
+              152px 24px var(--black),
+
+              8px 32px var(--black),
+              16px 32px var(--orange),
+              24px 32px var(--orange),
+              32px 32px var(--orange),
+              40px 32px var(--orange),
+              48px 32px var(--orange),
+              56px 32px var(--orange),
+              64px 32px var(--orange),
+              72px 32px var(--dark-orange),
+              80px 32px var(--black),
+              120px 32px var(--black),
+              128px 32px var(--red),
+              136px 32px var(--red),
+              144px 32px var(--red),
+              152px 32px var(--black),
+      
+              0 40px var(--black),
+              8px 40px var(--orange),
+              16px 40px var(--orange),
+              24px 40px var(--orange),
+              32px 40px var(--orange),
+              40px 40px var(--white),
+              48px 40px var(--black),
+              56px 40px var(--orange),
+              64px 40px var(--orange),
+              72px 40px var(--dark-orange),
+              80px 40px var(--black),
+              112px 40px var(--black),
+              120px 40px var(--red),
+              128px 40px var(--red),
+              136px 40px var(--dark-orange),
+              144px 40px var(--red),
+              152px 40px var(--red),
+              160px 40px var(--black),
+
+              0 48px var(--black),
+             8px 48px var(--orange),
+             16px 48px var(--orange),
+             24px 48px var(--orange),
+             32px 48px var(--orange),
+             40px 48px var(--black),
+             48px 48px var(--black),
+             56px 48px var(--orange),
+             64px 48px var(--dark-orange),
+             72px 48px var(--dark-orange),
+             80px 48px var(--dark-orange),
+             88px 48px var(--black),
+             112px 48px var(--black),
+             120px 48px var(--red),
+             128px 48px var(--dark-orange),
+             136px 48px var(--yellow),
+             144px 48px var(--dark-orange),
+             152px 48px var(--red),
+             160px 48px var(--black),
+      
+             0 56px var(--black),
+             8px 56px var(--orange),
+             16px 56px var(--orange),
+             24px 56px var(--orange),
+             32px 56px var(--orange),
+             40px 56px var(--black),
+             48px 56px var(--black),
+             56px 56px var(--orange),
+             64px 56px var(--dark-orange),
+             72px 56px var(--dark-orange),
+             80px 56px var(--dark-orange),
+             88px 56px var(--black),
+             112px 56px var(--black),
+             120px 56px var(--red),
+             128px 56px var(--dark-orange),
+             136px 56px var(--yellow),
+             144px 56px var(--dark-orange),
+             152px 56px var(--red),
+             160px 56px var(--black),
+
+             8px 64px var(--black),
+             16px 64px var(--dark-orange),
+             24px 64px var(--orange),
+             32px 64px var(--orange),
+             40px 64px var(--orange),
+             48px 64px var(--orange),
+             56px 64px var(--dark-orange),
+             64px 64px var(--dark-orange),
+             72px 64px var(--dark-orange),
+             80px 64px var(--dark-orange),
+             88px 64px var(--dark-orange),
+             96px 64px var(--black),
+             120px 64px var(--black),
+             128px 64px var(--yellow),
+             136px 64px var(--yellow),
+             144px 64px var(--black),
+             152px 64px var(--black),
+      
+             16px 72px var(--black),
+             24px 72px var(--black),
+             32px 72px var(--dark-orange),
+             40px 72px var(--dark-orange),
+             48px 72px var(--dark-orange),
+             56px 72px var(--dark-orange),
+             64px 72px var(--dark-orange),
+             72px 72px var(--dark-orange),
+             80px 72px var(--dark-orange),
+             88px 72px var(--dark-orange),
+             96px 72px var(--dark-orange),
+             104px 72px var(--black),
+             120px 72px var(--black),
+             128px 72px var(--dark-orange),
+             136px 72px var(--black),
+
+             24px 80px var(--black),
+             32px 80px var(--black),
+             40px 80px var(--black),
+             48px 80px var(--dark-orange),
+             56px 80px var(--dark-orange),
+             64px 80px var(--black),
+             72px 80px var(--dark-orange),
+             80px 80px var(--dark-orange),
+             88px 80px var(--dark-orange),
+             96px 80px var(--dark-orange),
+             104px 80px var(--black),
+             120px 80px var(--black),
+             128px 80px var(--dark-orange),
+             136px 80px var(--black),
+      
+             32px 88px var(--black),
+             40px 88px var(--yellow),
+             48px 88px var(--yellow),
+             56px 88px var(--black),
+             64px 88px var(--orange),
+             72px 88px var(--orange),
+             80px 88px var(--dark-orange),
+             88px 88px var(--dark-orange),
+             96px 88px var(--dark-orange),
+             104px 88px var(--black),
+             120px 88px var(--black),
+             128px 88px var(--dark-orange),
+             136px 88px var(--black),
+
+             32px 96px var(--black),
+             40px 96px var(--yellow),
+             48px 96px var(--yellow),
+             56px 96px var(--yellow),
+             64px 96px var(--black),
+             72px 96px var(--black),
+             80px 96px var(--dark-orange),
+             88px 96px var(--dark-orange),
+             96px 96px var(--dark-orange),
+             104px 96px var(--black),
+             112px 96px var(--black),
+             120px 96px var(--dark-orange),
+             128px 96px var(--dark-orange),
+             136px 96px var(--black),
+      
+             24px 104px var(--black),
+             32px 104px var(--white),
+             40px 104px var(--yellow),
+             48px 104px var(--yellow),
+             56px 104px var(--yellow),
+             64px 104px var(--dark-orange),
+             72px 104px var(--dark-orange),
+             80px 104px var(--dark-orange),
+             88px 104px var(--dark-orange),
+             96px 104px var(--dark-orange),
+             104px 104px var(--dark-orange),
+             112px 104px var(--dark-orange),
+             120px 104px var(--dark-orange),
+             128px 104px var(--black),
+
+             32px 112px var(--black),
+             40px 112px var(--black),
+             48px 112px var(--black),
+             56px 112px var(--orange),
+             64px 112px var(--orange),
+             72px 112px var(--dark-orange),
+             80px 112px var(--dark-orange),
+             88px 112px var(--dark-orange),
+             96px 112px var(--dark-orange),
+             104px 112px var(--dark-orange),
+             112px 112px var(--dark-orange),
+             120px 112px var(--black),
+      
+             56px 120px var(--black),
+             64px 120px var(--black),
+             72px 120px var(--black),
+             80px 120px var(--dark-orange),
+             88px 120px var(--dark-orange),
+             96px 120px var(--dark-orange),
+             104px 120px var(--black),
+             112px 120px var(--black),
+            
+             64px 128px var(--black),
+             72px 128px var(--white),
+             80px 128px var(--dark-orange),
+             88px 128px var(--white),
+             96px 128px var(--black),
+             104px 128px var(--black),
+            
+             72px 136px var(--black),
+             80px 136px var(--black),
+             88px 136px var(--black);
+}
+
+/*POKEMON TRAINER -------*/
+.trainer {
+  position: absolute;
+  left: 56%;
+  top: 2%;
+}
+
+.trainer {
+    display: block;
+    height: 8px;
+    width: 8px;
+    box-shadow:  
+      32px 0 var(--black),
+      40px 0 var(--black),
+      48px 0 var(--black),
+      56px 0 var(--black),
+      64px 0 var(--black),
+      
+      24px 8px var(--black),
+      32px 8px var(--red),
+      40px 8px var(--red),
+      48px 8px var(--red),
+      56px 8px var(--red),
+      64px 8px var(--red),
+      72px 8px var(--black),
+      
+      16px 16px var(--black),
+      24px 16px var(--red),
+      32px 16px var(--red),
+      40px 16px var(--red),
+      48px 16px var(--red),
+      56px 16px var(--red),
+      64px 16px var(--red),
+      72px 16px var(--red),
+      80px 16px var(--black),
+      
+      8px 24px var(--black),
+      16px 24px var(--black),
+      24px 24px var(--white),
+      32px 24px var(--red),
+      40px 24px var(--red),
+      48px 24px var(--red),
+      56px 24px var(--red),
+      64px 24px var(--red),
+      72px 24px var(--red),
+      80px 24px var(--black),
+      
+      0 32px var(--black),
+      8px 32px var(--white),
+      16px 32px var(--white),
+      24px 32px var(--white),
+      32px 32px var(--white),
+      40px 32px var(--red),
+      48px 32px var(--black),
+      56px 32px var(--black),
+      64px 32px var(--black),
+      72px 32px var(--black),
+      80px 32px var(--black),
+      88px 32px var(--black),
+      
+      8px 40px var(--black),
+      16px 40px var(--black),
+      24px 40px var(--red),
+      32px 40px var(--red),
+      40px 40px var(--red),
+      48px 40px var(--brown),
+      56px 40px var(--black),
+      64px 40px var(--black),
+      72px 40px var(--black),
+      80px 40px var(--black),
+      88px 40px var(--black),
+      96px 40px var(--black),
+      
+      16px 48px var(--black),
+      24px 48px var(--brown),
+      32px 48px var(--black),
+      40px 48px var(--brown),
+      48px 48px var(--brown),
+      56px 48px var(--black),
+      64px 48px var(--brown),
+      72px 48px var(--brown),
+      80px 48px var(--black),
+      88px 48px var(--black),
+      96px 48px var(--black),
+      
+      16px 56px var(--black),
+      24px 56px var(--brown),
+      32px 56px var(--black),
+      40px 56px var(--brown),
+      48px 56px var(--brown),
+      56px 56px var(--black),
+      64px 56px var(--brown),
+      72px 56px var(--brown),
+      80px 56px var(--black),
+      88px 56px var(--black),
+      
+      16px 64px var(--black),
+      24px 64px var(--brown),
+      32px 64px var(--brown),
+      40px 64px var(--brown),
+      48px 64px var(--brown),
+      56px 64px var(--brown),
+      64px 64px var(--brown),
+      72px 64px var(--brown),
+      80px 64px var(--black),
+      
+      24px 72px var(--black),
+      32px 72px var(--brown),
+      40px 72px var(--brown),
+      48px 72px var(--brown),
+      56px 72px var(--brown),
+      64px 72px var(--black),
+      72px 72px var(--black),
+      80px 72px var(--purple),
+      88px 72px var(--black),
+      
+      32px 80px var(--black),
+      40px 80px var(--black),
+      48px 80px var(--black),
+      56px 80px var(--black),
+      64px 80px var(--black),
+      72px 80px var(--black),
+      80px 80px var(--purple),
+      88px 80px var(--black),
+      
+      16px 88px var(--black),
+      24px 88px var(--black),
+      32px 88px var(--black),
+      40px 88px var(--black),
+      48px 88px var(--black),
+      56px 88px var(--black),
+      64px 88px var(--brown),
+      72px 88px var(--brown),
+      80px 88px var(--black),
+      88px 88px var(--black),
+      
+      8px 96px var(--black),
+      16px 96px var(--dark-blue),
+      24px 96px var(--dark-blue),
+      32px 96px var(--black),
+      40px 96px var(--blue),
+      48px 96px var(--blue),
+      56px 96px var(--black),
+      64px 96px var(--brown),
+      72px 96px var(--brown),
+      80px 96px var(--black),
+      88px 96px var(--dark-blue),
+      96px 96px var(--black),
+      
+      16px 104px var(--black),
+      24px 104px var(--dark-blue),
+      32px 104px var(--dark-blue),
+      40px 104px var(--black),
+      48px 104px var(--black),
+      56px 104px var(--black),
+      64px 104px var(--black),
+      72px 104px var(--black),
+      80px 104px var(--dark-blue),
+      88px 104px var(--dark-blue),
+      96px 104px var(--black),
+      
+      24px 112px var(--black),
+      32px 112px var(--black),
+      40px 112px var(--black),
+      80px 112px var(--black),
+      88px 112px var(--black),
+      96px 112px var(--black);
+}
+
+/*KEYFRAME ANIMATION ------------ */
+
+@keyframes bounce {
+  0%, 20%, 40%, 80%, 100% {
+    -moz-transform: scale(.9) translateY(0);
+    -ms-transform: scale(.9) translateY(0);
+    -webkit-transform: scale(.9) translateY(0);
+    transform: scale(.9) translateY(0);
+  }
+
+  60% {
+    -moz-transform: scale(.9) translateY(-15px);
+    -ms-transform: scale(.9) translateY(-15px);
+    -webkit-transform: scale(.9) translateY(-15px);
+    transform: scale(.9) translateY(-15px);
+  }
+}
+
+.bounce {
+  -moz-animation: bounce 5s infinite;
+  -webkit-animation: bounce 5s infinite;
+  animation: bounce 5s infinite;
+}

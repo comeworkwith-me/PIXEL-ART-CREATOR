@@ -1,0 +1,80 @@
+:root {
+  --dark-blue: #250352;
+  --light-blue: #C7B0F5;
+  --blue: #cecadb;
+}
+
+.editor {
+  border-radius: 0.85rem;
+  padding: 1rem 4rem 2rem 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#options {
+  display: flex;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.panelInput {
+  background: transparent;
+  resize: none;
+  outline: 0;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 0.85rem;
+  margin: 0 1rem 0.5rem 1rem;
+  padding-left: 1rem;
+  border: 2px solid var(--dark-blue);
+  transition: 0.25s;
+}
+
+.panelInput:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--dark-blue);
+  border: 2px solid var(--light-blue);
+  transform: translateY(-0.25em);
+}
+
+.drawing-button {
+  border: 2px solid var(--dark-blue);
+  border-radius: 0.35rem;
+  padding: 1rem;
+  background: var(--dark-blue);
+  color: var(--blue);
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.drawing-button:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--dark-blue);
+  transform: translateY(-0.25em);
+}
+
+.h1 {
+  font-size: 3rem;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+.hue-picker {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 300px;
+  cursor: pointer;
+
+}

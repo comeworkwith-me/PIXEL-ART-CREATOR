@@ -1,0 +1,30 @@
+:root {
+  --blue: #cecadb;
+  --black: #000000;
+  --dark-blue: #250352;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  min-width: fit-content;
+  width: 45%;
+  height: 100%;
+  margin-top: 84px;
+  margin-bottom: 120px;
+  margin-left: 360px;
+  color: var(--dark-blue);
+  background-color: var(--blue);
+  border-radius: 0.85rem;
+  box-shadow: -1px 15px 30px -12px var(--black);
+}
+
+.header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--dark-blue);
+  background-color: var(--blue);
+}

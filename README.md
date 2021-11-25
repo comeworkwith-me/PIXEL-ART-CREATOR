@@ -2,6 +2,9 @@
 
 This was a [Mintbean](https://mintbean.io/) Hackathon project.
 
+![Pixel](pixel_app_1.png)
+![Pixel](pixel_app_2.png)
+
 # ABOUT
 
 During a one-week sprint, I coded and deployed a pixel art maker.

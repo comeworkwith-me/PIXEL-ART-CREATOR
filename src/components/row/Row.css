@@ -1,0 +1,4 @@
+.row-pixels {
+  display: flex;
+  width: fit-content;
+}

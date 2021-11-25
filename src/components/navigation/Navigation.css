@@ -1,0 +1,32 @@
+:root {
+  --dark-blue: #250352;
+  --light-blue: #C7B0F5;
+  --blue: #cecadb;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background: var(--dark-blue);
+  width: 614px;
+  position: relative;
+  border-top-left-radius: 0.35rem;
+  border-top-right-radius: 0.35rem;
+}
+
+.links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  list-style-type: none;
+  color: var(--light-blue);
+}
+
+a:link {
+  text-decoration: none;
+  border: 2px solid var(--blue);
+  padding: 10px;
+  color: var(--light-blue);
+  border-radius: 0.35rem;
+}

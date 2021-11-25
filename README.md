@@ -1,8 +1,8 @@
-#CREATE PIXEL ART
+# CREATE PIXEL ART
 
 This was a [Mintbean](https://mintbean.io/) Hackathon project.
 
-#ABOUT
+# ABOUT
 
 During a one-week sprint, I coded and deployed a pixel art maker.
 

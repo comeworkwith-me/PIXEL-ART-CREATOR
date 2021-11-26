@@ -8,8 +8,11 @@ export default function Navigation() {
     <nav className="navigation">
       <ul className="links">
         <Link to="/"><li>HOME</li></Link>
-        <Link to="/draw"><li>DRAW</li></Link>
+        <Link to="draw"><li>DRAW</li></Link>
+        <Link to="blog"><li>BLOG</li></Link>
       </ul>
+      
     </nav>
+    
   )
 }

@@ -29,4 +29,13 @@ a:link {
   padding: 10px;
   color: var(--light-blue);
   border-radius: 0.35rem;
+  transition: 0.25s;
+}
+
+a:hover {
+  transform: translateY(-0.25em);
+}
+
+a:active {
+  text-decoration: none;
 }

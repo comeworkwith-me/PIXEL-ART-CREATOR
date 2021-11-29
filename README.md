@@ -4,6 +4,7 @@ This was a [Mintbean](https://mintbean.io/) Hackathon project.
 
 ![Pixel](pixel_app_1.png)
 ![Pixel](pixel_app_2.png)
+![Pixel](pixel_app_6.png)
 
 # ABOUT
 
